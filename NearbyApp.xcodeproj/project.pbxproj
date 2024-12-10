@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		06841E3B2D07AF6C00B02E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E3A2D07AF6C00B02E7F /* AppDelegate.swift */; };
 		06841E3D2D07AF6C00B02E7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E3C2D07AF6C00B02E7F /* SceneDelegate.swift */; };
-		06841E3F2D07AF6C00B02E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E3E2D07AF6C00B02E7F /* ViewController.swift */; };
-		06841E422D07AF6C00B02E7F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 06841E412D07AF6C00B02E7F /* Base */; };
-		06841E442D07AF6D00B02E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06841E432D07AF6D00B02E7F /* Assets.xcassets */; };
-		06841E472D07AF6D00B02E7F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 06841E462D07AF6D00B02E7F /* Base */; };
+		06841E502D07B18100B02E7F /* NearbyFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E4F2D07B18100B02E7F /* NearbyFlowController.swift */; };
+		06841E562D07BB6E00B02E7F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E552D07BB6E00B02E7F /* Colors.swift */; };
+		06841E5B2D07BDB000B02E7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E5A2D07BDB000B02E7F /* SplashViewController.swift */; };
+		06841E5E2D07BE1B00B02E7F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E5D2D07BE1B00B02E7F /* SplashView.swift */; };
+		06841E612D07C1D200B02E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06841E5F2D07C1D200B02E7F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06841E372D07AF6C00B02E7F /* NearbyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06841E3A2D07AF6C00B02E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06841E3C2D07AF6C00B02E7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06841E3E2D07AF6C00B02E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		06841E412D07AF6C00B02E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		06841E432D07AF6D00B02E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		06841E462D07AF6D00B02E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06841E482D07AF6D00B02E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06841E4F2D07B18100B02E7F /* NearbyFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyFlowController.swift; sourceTree = "<group>"; };
+		06841E552D07BB6E00B02E7F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		06841E5A2D07BDB000B02E7F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		06841E5D2D07BE1B00B02E7F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		06841E5F2D07C1D200B02E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,73 @@
 		06841E392D07AF6C00B02E7F /* NearbyApp */ = {
 			isa = PBXGroup;
 			children = (
+				06841E602D07C1D200B02E7F /* Resources */,
+				06841E4E2D07B0D100B02E7F /* Sources */,
 				06841E3A2D07AF6C00B02E7F /* AppDelegate.swift */,
 				06841E3C2D07AF6C00B02E7F /* SceneDelegate.swift */,
-				06841E3E2D07AF6C00B02E7F /* ViewController.swift */,
-				06841E402D07AF6C00B02E7F /* Main.storyboard */,
-				06841E432D07AF6D00B02E7F /* Assets.xcassets */,
-				06841E452D07AF6D00B02E7F /* LaunchScreen.storyboard */,
 				06841E482D07AF6D00B02E7F /* Info.plist */,
 			);
 			path = NearbyApp;
+			sourceTree = "<group>";
+		};
+		06841E4E2D07B0D100B02E7F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				06841E522D07BB0900B02E7F /* Features */,
+				06841E512D07BAFB00B02E7F /* Constants */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		06841E512D07BAFB00B02E7F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				06841E552D07BB6E00B02E7F /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		06841E522D07BB0900B02E7F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				06841E582D07BD7900B02E7F /* Scene */,
+				06841E572D07BC0C00B02E7F /* Coordinator */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		06841E572D07BC0C00B02E7F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				06841E4F2D07B18100B02E7F /* NearbyFlowController.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		06841E582D07BD7900B02E7F /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				06841E592D07BD9200B02E7F /* Splash */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		06841E592D07BD9200B02E7F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				06841E5A2D07BDB000B02E7F /* SplashViewController.swift */,
+				06841E5D2D07BE1B00B02E7F /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		06841E602D07C1D200B02E7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06841E5F2D07C1D200B02E7F /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = "../../../../../../Downloads/nlw-pocket-mobile-swift-fc8ae9d79300fbf6c99204cdd6623448bcd51232/NearbyApp NLW/Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06841E442D07AF6D00B02E7F /* Assets.xcassets in Resources */,
-				06841E472D07AF6D00B02E7F /* Base in Resources */,
-				06841E422D07AF6C00B02E7F /* Base in Resources */,
+				06841E612D07C1D200B02E7F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06841E3F2D07AF6C00B02E7F /* ViewController.swift in Sources */,
+				06841E502D07B18100B02E7F /* NearbyFlowController.swift in Sources */,
+				06841E562D07BB6E00B02E7F /* Colors.swift in Sources */,
+				06841E5B2D07BDB000B02E7F /* SplashViewController.swift in Sources */,
 				06841E3B2D07AF6C00B02E7F /* AppDelegate.swift in Sources */,
 				06841E3D2D07AF6C00B02E7F /* SceneDelegate.swift in Sources */,
+				06841E5E2D07BE1B00B02E7F /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		06841E402D07AF6C00B02E7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06841E412D07AF6C00B02E7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		06841E452D07AF6D00B02E7F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06841E462D07AF6D00B02E7F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		06841E492D07AF6D00B02E7F /* Debug */ = {
@@ -295,8 +337,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NearbyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,8 +363,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NearbyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = SplashViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
