@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		06460EAB2D08E5FE0078B087 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06460EAA2D08E5FE0078B087 /* TipsView.swift */; };
-		06460EAD2D08E8680078B087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06460EAC2D08E8680078B087 /* Assets.xcassets */; };
 		06460EB02D08ECC50078B087 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06460EAF2D08ECC50078B087 /* WelcomeView.swift */; };
 		06460EB22D08EDB30078B087 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06460EB12D08EDB30078B087 /* Typography.swift */; };
 		06460EB42D08F0DB0078B087 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06460EB32D08F0DB0078B087 /* WelcomeViewController.swift */; };
@@ -24,11 +23,16 @@
 		06841E562D07BB6E00B02E7F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E552D07BB6E00B02E7F /* Colors.swift */; };
 		06841E5B2D07BDB000B02E7F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E5A2D07BDB000B02E7F /* SplashViewController.swift */; };
 		06841E5E2D07BE1B00B02E7F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06841E5D2D07BE1B00B02E7F /* SplashView.swift */; };
+		06E78B122D0A4FE800001523 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E78B112D0A4FE800001523 /* CategoryModel.swift */; };
+		06E78B142D0A502600001523 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E78B132D0A502600001523 /* PlaceAnnotation.swift */; };
+		06E78B172D0A50C000001523 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E78B162D0A50C000001523 /* DetailsViewController.swift */; };
+		06E78B1A2D0A535800001523 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E78B192D0A535800001523 /* HomeViewModel.swift */; };
+		06E78B1C2D0A549A00001523 /* WelcomeFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E78B1B2D0A549A00001523 /* WelcomeFlowDelegate.swift */; };
+		06E78B1E2D0A559300001523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E78B1D2D0A559300001523 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06460EAA2D08E5FE0078B087 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
-		06460EAC2D08E8680078B087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06460EAF2D08ECC50078B087 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		06460EB12D08EDB30078B087 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		06460EB32D08F0DB0078B087 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +50,12 @@
 		06841E552D07BB6E00B02E7F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		06841E5A2D07BDB000B02E7F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		06841E5D2D07BE1B00B02E7F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		06E78B112D0A4FE800001523 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		06E78B132D0A502600001523 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		06E78B162D0A50C000001523 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		06E78B192D0A535800001523 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		06E78B1B2D0A549A00001523 /* WelcomeFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeFlowDelegate.swift; sourceTree = "<group>"; };
+		06E78B1D2D0A559300001523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,7 @@
 			children = (
 				06460EAF2D08ECC50078B087 /* WelcomeView.swift */,
 				06460EB32D08F0DB0078B087 /* WelcomeViewController.swift */,
+				06E78B1B2D0A549A00001523 /* WelcomeFlowDelegate.swift */,
 			);
 			path = WelcomeView;
 			sourceTree = "<group>";
@@ -87,6 +98,7 @@
 		06460EBA2D0904D00078B087 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				06E78B182D0A533C00001523 /* ViewModel */,
 				06460EBF2D0905370078B087 /* TableViewCell */,
 				06460EBB2D0904E80078B087 /* HomeView.swift */,
 				06460EBD2D0904FC0078B087 /* HomeViewController.swift */,
@@ -106,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				06460EC52D0906F00078B087 /* PlaceModel.swift */,
+				06E78B112D0A4FE800001523 /* CategoryModel.swift */,
+				06E78B132D0A502600001523 /* PlaceAnnotation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +193,7 @@
 		06841E582D07BD7900B02E7F /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				06E78B152D0A508400001523 /* DetailsView */,
 				06460EBA2D0904D00078B087 /* Home */,
 				06460EAE2D08EC8F0078B087 /* WelcomeView */,
 				06841E592D07BD9200B02E7F /* Splash */,
@@ -199,10 +214,26 @@
 		06841E602D07C1D200B02E7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				06460EAC2D08E8680078B087 /* Assets.xcassets */,
+				06E78B1D2D0A559300001523 /* Assets.xcassets */,
 			);
 			name = Resources;
 			path = "../../../../../../Downloads/nlw-pocket-mobile-swift-fc8ae9d79300fbf6c99204cdd6623448bcd51232/NearbyApp NLW/Resources";
+			sourceTree = "<group>";
+		};
+		06E78B152D0A508400001523 /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				06E78B162D0A50C000001523 /* DetailsViewController.swift */,
+			);
+			path = DetailsView;
+			sourceTree = "<group>";
+		};
+		06E78B182D0A533C00001523 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				06E78B192D0A535800001523 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06460EAD2D08E8680078B087 /* Assets.xcassets in Resources */,
+				06E78B1E2D0A559300001523 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,14 +308,19 @@
 				06841E502D07B18100B02E7F /* NearbyFlowController.swift in Sources */,
 				06460EC62D0906F00078B087 /* PlaceModel.swift in Sources */,
 				06460EB72D08F4620078B087 /* UIViewController+ext.swift in Sources */,
+				06E78B1A2D0A535800001523 /* HomeViewModel.swift in Sources */,
+				06E78B1C2D0A549A00001523 /* WelcomeFlowDelegate.swift in Sources */,
 				06460EBC2D0904E80078B087 /* HomeView.swift in Sources */,
+				06E78B122D0A4FE800001523 /* CategoryModel.swift in Sources */,
 				06460EB42D08F0DB0078B087 /* WelcomeViewController.swift in Sources */,
 				06841E562D07BB6E00B02E7F /* Colors.swift in Sources */,
 				06460EBE2D0904FC0078B087 /* HomeViewController.swift in Sources */,
 				06841E5B2D07BDB000B02E7F /* SplashViewController.swift in Sources */,
 				06460EB92D08F5FC0078B087 /* SplashFlowDelegate.swift in Sources */,
+				06E78B142D0A502600001523 /* PlaceAnnotation.swift in Sources */,
 				06460EB02D08ECC50078B087 /* WelcomeView.swift in Sources */,
 				06841E3B2D07AF6C00B02E7F /* AppDelegate.swift in Sources */,
+				06E78B172D0A50C000001523 /* DetailsViewController.swift in Sources */,
 				06460EC32D0906670078B087 /* PlaceTableViewCell.swift in Sources */,
 				06460EAB2D08E5FE0078B087 /* TipsView.swift in Sources */,
 				06841E3D2D07AF6C00B02E7F /* SceneDelegate.swift in Sources */,

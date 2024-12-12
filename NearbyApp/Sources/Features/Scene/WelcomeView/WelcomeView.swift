@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 class WelcomeView: UIView {
+    var didTapButton: (() -> Void?)?
     
     private let logoImageView: UIImageView = {
         let imageView = UIImageView(image: UIImage(named: "logo"))
@@ -114,6 +115,11 @@ class WelcomeView: UIView {
             startButton.heightAnchor.constraint(equalToConstant: 56)
         ])
     }
+    
+    @objc
+        private func didTap() {
+            didTapButton?()
+        }
     
     private func setupTips() {
         guard let icon1 = UIImage(named: "mapIcon") else { return }
